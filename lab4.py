@@ -27,7 +27,7 @@ my_tweet = {
         "tweet_id":1138,
         "coordinates":(-75,40),
         "visited_countries":["GR","HK","MY"]
-}
+           }
 
 print(my_tweet)
 
@@ -44,7 +44,7 @@ print("US"in my_tweet["visited_countries"])
 #3.9
 #(81,45)
 
-my_tweet["coordinates"]=(81,45)
+my_tweet["coordinates"]=(-81,45)
 print(my_tweet)
 
 

@@ -29,7 +29,7 @@ if ' strawberries'in favorite_fruits:
     print("i love chocolate covered strawberries")
 
 #3.4
-age = 90
+age = 19
 
 if age < 10:
     print('kid')

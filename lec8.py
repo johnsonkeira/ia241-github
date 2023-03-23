@@ -11,6 +11,7 @@ functions
     
 #print(my_function(1,2))
  
+
 def cal_plus(input1, input2=0): #default value assigned 
     #return input1 + input2
     print(input1)
@@ -86,6 +87,6 @@ def cal_f(m):
     #print(cal_f(5))
 
 def cal_p(m,n):
-    return cal_f(m)/calf(m-n)
+    return cal_f(m)/cal_f(m-n)
     
 print(cal_p(5,3))
